@@ -78,6 +78,18 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.purple[800],
+        centerTitle: true,
+        elevation: 0,
+        title: Text(
+          'Dog Classifer',
+          style: TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+          ),
+        ),
+      ),
 
     );
   }
