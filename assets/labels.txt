@@ -1,5 +1,5 @@
-0 Samoyed
-1 Chihuahua
-2 Bloodhound
-3 Golden retriever
-4 Border collie
+Samoyed
+Chihuahua
+Bloodhound
+Golden retriever
+Border collie

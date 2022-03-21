@@ -79,21 +79,70 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple[800],
         centerTitle: true,
         elevation: 0,
+        backgroundColor: Colors.purple[800],
         title: Text(
-          'Dog Classifer',
+          'Dog Classifier',
           style: TextStyle(
-              color: Colors.white,
-              fontSize: 20,
+            color: Colors.white,
+            fontSize: 20,
           ),
         ),
       ),
-
+      body: Container(
+        color: Colors.white,
+        padding:EdgeInsets.fromLTRB(35,20,35,20) ,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text(
+              "IMAGE",
+              style:TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontSize:20,
+              ) ,
+            ),
+            SizedBox(height: 20),
+            Container(
+              child: Center(
+                child: _loading == true ? null : Container(
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 300,
+                        width: 300,
+                        child: Container(
+                          child: Image.file(
+                            _image,
+                            fit: BoxFit.fill,
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 20),
+                      _output != null ? Text(
+                        ' ${_output[0]['label']}',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      )
+                          : null,
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(height: 20),
+          ],
+        ),
+      ),
     );
   }
 }
+
 
 
 
