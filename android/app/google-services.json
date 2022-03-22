@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431971820870",
+    "project_id": "dog-classifier-cf953",
+    "storage_bucket": "dog-classifier-cf953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431971820870:android:924645b6dff05313163147",
+        "android_client_info": {
+          "package_name": "com.geeth.dog_classifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431971820870-uve8jf5hoo1t3mooc10r3udrqsiinqu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqkPaShosQNfMdlsPdfmZn5qeAJHwlkzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431971820870-uve8jf5hoo1t3mooc10r3udrqsiinqu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
