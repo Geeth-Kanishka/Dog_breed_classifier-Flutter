@@ -136,6 +136,47 @@ class _HomeState extends State<Home> {
               ),
             ),
             SizedBox(height: 20),
+            Container(
+              child: Column(
+                children: [
+                  TextButton(
+                    onPressed: pickImage,
+                    child: Container(
+                      width: 250,
+                      alignment: Alignment.center,
+                      padding:
+                      EdgeInsets.symmetric(horizontal: 25, vertical: 15),
+                      decoration: BoxDecoration(
+                        color: Colors.purple[800],
+                      ),
+                      child: Text(
+                        'Camera',
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  TextButton(
+                    onPressed: pickImage_Gallery,
+                    child: Container(
+                      width: 250,
+                      alignment: Alignment.center,
+                      padding:
+                      EdgeInsets.symmetric(horizontal: 25, vertical: 15),
+                      decoration: BoxDecoration(
+                        color: Colors.purple[800],
+                      ),
+                      child: Text(
+                        'Gallery',
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
