@@ -36,7 +36,7 @@ class _infoState extends State<info> {
 
         width: double.infinity,
         height: double.infinity,
-        color: Colors.grey[850],
+        color: Colors.grey[900],
         padding:EdgeInsets.fromLTRB(35,0,35,20) ,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

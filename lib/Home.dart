@@ -82,7 +82,7 @@ class _HomeState extends State<Home> {
         ),
       ),
       body: Container(
-        color: Colors.grey[850],
+        color: Colors.grey[900],
         padding:EdgeInsets.fromLTRB(35,0,35,20) ,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -131,7 +131,7 @@ class _HomeState extends State<Home> {
             Container(
               child: Column(
                 children: [
-                  TextButton(
+                  ElevatedButton(
                     onPressed: pickImage,
                     child: Container(
                       width: 250,
@@ -150,7 +150,7 @@ class _HomeState extends State<Home> {
                   SizedBox(
                     height: 30,
                   ),
-                  TextButton(
+                  ElevatedButton(
                     onPressed: pickImage_Gallery,
                     child: Container(
                       width: 250,
